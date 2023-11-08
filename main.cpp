@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     cout << "Problem 1\n";
-    int water;
+    float water;
     cin >> water;
     cout << problemSolution1(water) << endl;
 
