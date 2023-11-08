@@ -9,14 +9,30 @@ using namespace std;
 
 int main() {
     cout << "Problem 1\n";
-    problemSolution1();
+    int water;
+    cin >> water;
+    cout << problemSolution1(water) << endl;
+
     cout << "Problem 2\n";
-    problemSolution2();
+    float n1, n2, n3;
+    cin >> n1 >> n2 >> n3;
+    cout << "The maximum number is " << problemSolution2(n1, n2, n3) << endl;
+
     cout << "Problem 3\n";
-    problemSolution3();
+    char s;
+    float height;
+    cin >> s >> height;
+    cout << problemSolution3(s, height) << endl;
+    
     cout << "Problem 4\n";
-    problemSolution4();
+    string mac;
+    cin >> mac;
+    cout << problemSolution4(mac) << endl;
+
     cout << "Problem 5\n";
-    problemSolution5();
+    float num1, num2;
+    char operation;
+    cin >> num1 >> operation >> num2;
+    cout << problemSolution5(num1, num2, operation) << endl;
     return 0;
 }
